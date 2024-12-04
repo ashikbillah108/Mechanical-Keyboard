@@ -2113,7 +2113,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 60.96 -27.94 180)
+				(at 60.96 -25.4 180)
 				(length 7.62)
 				(name "USB_DM"
 					(effects
@@ -2131,7 +2131,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 60.96 -25.4 180)
+				(at 60.96 -27.94 180)
 				(length 7.62)
 				(name "USB_DP"
 					(effects

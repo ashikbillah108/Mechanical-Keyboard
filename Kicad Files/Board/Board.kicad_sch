@@ -1724,7 +1724,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -27.94 180)
+					(at 60.96 -25.4 180)
 					(length 7.62)
 					(name "USB_DM"
 						(effects
@@ -1742,7 +1742,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -25.4 180)
+					(at 60.96 -27.94 180)
 					(length 7.62)
 					(name "USB_DP"
 						(effects
@@ -3981,16 +3981,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 57.15) (xy 151.13 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053d72fd-039a-47d1-81bb-e0dbc3348022")
-	)
-	(wire
-		(pts
 			(xy 34.29 38.1) (xy 34.29 40.64)
 		)
 		(stroke
@@ -4321,6 +4311,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 57.15) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df15f88-d221-4acf-8fc7-e193e4b245cf")
+	)
+	(wire
+		(pts
 			(xy 52.07 85.09) (xy 80.01 85.09)
 		)
 		(stroke
@@ -4631,7 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 90.17) (xy 157.48 88.9)
+			(xy 160.02 90.17) (xy 160.02 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4988,16 +4988,6 @@
 			(type default)
 		)
 		(uuid "70294fa2-e26f-4dab-85de-83bdf00607ee")
-	)
-	(wire
-		(pts
-			(xy 140.97 54.61) (xy 143.51 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70cb3e7e-ae0b-4887-bce3-360ace74d442")
 	)
 	(wire
 		(pts
@@ -5381,7 +5371,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 157.48 90.17)
+			(xy 140.97 90.17) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6021,6 +6011,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec703682-d137-4f58-8202-df2cada09aa5")
+	)
+	(wire
+		(pts
 			(xy 78.74 176.53) (xy 86.36 176.53)
 		)
 		(stroke
@@ -6263,7 +6263,7 @@
 		)
 		(uuid "ece63878-f66e-4feb-97bd-f6e21791153d")
 	)
-	(label "D-"
+	(label "D+"
 		(at 207.01 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6285,7 +6285,7 @@
 		)
 		(uuid "231a9a30-b6a8-4e78-93a5-96fa80345879")
 	)
-	(label "D+"
+	(label "D-"
 		(at 207.01 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7216,7 +7216,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 88.9 0)
+		(at 160.02 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7224,7 +7224,7 @@
 		(dnp no)
 		(uuid "1ed0d223-292a-4e58-acc9-f8703985a810")
 		(property "Reference" "#PWR07"
-			(at 157.48 92.71 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7233,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 153.67 85.852 0)
+			(at 156.21 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:IC57_RP2040"
+		(property "Footprint" "IC57_RP2040"
 			(at 80.01 29.21 0)
 			(effects
 				(font
@@ -9748,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723933012836352"
+		(property "Datasheet" "RP2040"
 			(at 80.01 29.21 0)
 			(effects
 				(font
