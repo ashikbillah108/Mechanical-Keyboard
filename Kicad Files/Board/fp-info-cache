@@ -1,4 +1,4 @@
-24044163138990275
+24066623219965798
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97552,6 +97552,27 @@ moko mk08a mk08b nRF52840 bluetooth low energy
 60
 58
 mechanical_keyboard
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+mechanical_keyboard
+D_0402_1005Metric
+Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+mechanical_keyboard
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+mechanical_keyboard
 IC57_RP2040
 
 RP2040 
@@ -97572,3 +97593,73 @@ RP2040
 0
 57
 57
+mechanical_keyboard
+JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical
+JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
+0
+4
+4
+mechanical_keyboard
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+mechanical_keyboard
+SMD_2MSB4SI_YXC
+
+X322512MSB4SI 
+0
+4
+4
+mechanical_keyboard
+SMD_2MSB4SI_YXC-L
+
+X322512MSB4SI 
+0
+4
+4
+mechanical_keyboard
+SMD_2MSB4SI_YXC-M
+
+X322512MSB4SI 
+0
+4
+4
+mechanical_keyboard
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+mechanical_keyboard
+SOT-23-3
+SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+mechanical_keyboard
+SOT-23-6
+SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
+mechanical_keyboard
+SW4_KMR221GLFS_CNK
+
+KMR221GLFS 
+0
+5
+5
+mechanical_keyboard
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+20
