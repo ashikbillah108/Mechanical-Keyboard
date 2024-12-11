@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "mechanical_keyboard")(type "KiCad")(uri "D:/Git/Mechanical-Keyboard/lib/symbols/mechanical_keyboard.kicad_sym")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "C:/Users/Ashik-iTest/Downloads/marbastlib-main/marbastlib-main/symbols/marbastlib-mx.kicad_sym")(options "")(descr ""))
 )
