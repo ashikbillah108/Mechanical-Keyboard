@@ -347,6 +347,12 @@
 		(uuid "027e0e81-c423-41ca-985d-10113145e231")
 	)
 	(junction
+		(at 195.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043dc747-9441-4dbe-ad32-3d04d84f77b4")
+	)
+	(junction
 		(at 76.2 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -381,12 +387,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13aa859a-e157-40b5-aa53-406cad7ab82a")
-	)
-	(junction
-		(at 182.88 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19b53627-07d9-4231-88db-40f1d63c4eda")
 	)
 	(junction
 		(at 182.88 73.66)
@@ -653,6 +653,12 @@
 		(uuid "80d74f20-dc51-4869-a282-85d357e92288")
 	)
 	(junction
+		(at 170.18 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f3f477-0783-473e-8240-1f3a5f2d430b")
+	)
+	(junction
 		(at 127 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -749,6 +755,12 @@
 		(uuid "a38ca6ac-0719-4e29-9dd5-f6876817c7b1")
 	)
 	(junction
+		(at 195.58 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b3b83c-4609-407c-8cc0-da0ef6e17f11")
+	)
+	(junction
 		(at 106.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -801,12 +813,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1f8f0a6-86d1-4086-93bb-087e2c7288db")
-	)
-	(junction
-		(at 195.58 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2d8f5b0-8182-4584-b099-6abb2d17a495")
 	)
 	(junction
 		(at 144.78 99.06)
@@ -893,6 +899,12 @@
 		(uuid "d2c6f14c-4e0e-4f17-b11c-0e75d640842a")
 	)
 	(junction
+		(at 203.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5075702-e36e-4218-b32e-ed65b71aea78")
+	)
+	(junction
 		(at 88.9 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -971,10 +983,10 @@
 		(uuid "edd9f01c-36f8-481f-84c9-dce014b4eaab")
 	)
 	(junction
-		(at 170.18 149.86)
+		(at 182.88 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "edeadad7-f7b3-49bc-9ac5-4de850faeabe")
+		(uuid "f1e1f91b-182c-4b9b-8272-72ebf4a5b8c2")
 	)
 	(junction
 		(at 63.5 88.9)
@@ -1018,16 +1030,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 149.86) (xy 182.88 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d0867c-fc42-4250-8f4f-d1b532048aaa")
-	)
-	(wire
-		(pts
 			(xy 182.88 73.66) (xy 195.58 73.66)
 		)
 		(stroke
@@ -1038,6 +1040,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d09ac0-78df-42b7-a8c8-365aa631f037")
+	)
+	(wire
+		(pts
 			(xy 106.68 73.66) (xy 119.38 73.66)
 		)
 		(stroke
@@ -1045,6 +1057,16 @@
 			(type default)
 		)
 		(uuid "09ad469b-0157-41cc-ac9c-bfcd0b6f5527")
+	)
+	(wire
+		(pts
+			(xy 195.58 124.46) (xy 208.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0adeeea9-b35c-4843-ade5-9ed505b20a79")
 	)
 	(wire
 		(pts
@@ -1128,6 +1150,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 88.9) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193fa55d-8098-4422-bdaa-9c4a8a1d442a")
+	)
+	(wire
+		(pts
 			(xy 50.8 25.4) (xy 50.8 38.1)
 		)
 		(stroke
@@ -1168,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 203.2 139.7)
+			(xy 203.2 63.5) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1325,16 +1357,6 @@
 			(type default)
 		)
 		(uuid "3cdd7ccb-e659-47d7-a67e-799d068b8848")
-	)
-	(wire
-		(pts
-			(xy 182.88 149.86) (xy 195.58 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1b52fb-dd0c-4b9a-8819-b27485fe8b30")
 	)
 	(wire
 		(pts
@@ -1578,16 +1600,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 149.86) (xy 170.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64362f60-4fb3-4d70-8b72-c5b174fe7860")
-	)
-	(wire
-		(pts
 			(xy 88.9 88.9) (xy 88.9 114.3)
 		)
 		(stroke
@@ -1615,6 +1627,16 @@
 			(type default)
 		)
 		(uuid "692971b6-f565-4a09-8730-19a988b8d055")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab47819-ac75-4942-bfef-91117108571e")
 	)
 	(wire
 		(pts
@@ -2198,6 +2220,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 149.86) (xy 182.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb0eb89-7195-4501-aa13-51cba68e1a08")
+	)
+	(wire
+		(pts
 			(xy 50.8 88.9) (xy 50.8 114.3)
 		)
 		(stroke
@@ -2218,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 149.86) (xy 208.28 149.86)
+			(xy 157.48 149.86) (xy 170.18 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -3253,7 +3285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -3408,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -3563,7 +3595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -3805,7 +3837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -3873,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -4376,7 +4408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 53.34 40.64 0)
 			(effects
 				(font
@@ -4705,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -4749,6 +4781,74 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
+		(at 205.74 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22cc4ada-3539-4986-bf5f-09f76969951b")
+		(property "Reference" "MX62"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Insert"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0af2d16b-620c-4bed-b8d4-561ed470c57a")
+		)
+		(pin "1"
+			(uuid "0077d62c-7e9a-4df5-bfd4-563ea3db1723")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "MX62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 91.44 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4773,7 +4873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -5189,7 +5289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -5257,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -5325,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -5385,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Value" "Mode"
+		(property "Value" "RAlt"
 			(at 129.54 137.16 0)
 			(effects
 				(font
@@ -5393,7 +5493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 142.24 0)
 			(effects
 				(font
@@ -5461,7 +5561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 116.84 116.84 0)
 			(effects
 				(font
@@ -5964,7 +6064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 66.04 66.04 0)
 			(effects
 				(font
@@ -6032,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 91.44 40.64 0)
 			(effects
 				(font
@@ -6075,93 +6175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mechanical_keyboard:D_Small")
-		(at 170.18 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d425e51-4b54-4054-94df-0724825f6033")
-		(property "Reference" "D62"
-			(at 170.434 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 170.434 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
-			(at 170.18 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 170.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 170.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 170.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bae59b34-0f0c-4690-9121-333b65926b72")
-		)
-		(pin "2"
-			(uuid "57822f05-fe21-4e45-bd33-308f56466bff")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "D62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 40.64 142.24 0)
 		(unit 1)
@@ -6187,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 40.64 142.24 0)
 			(effects
 				(font
@@ -6255,7 +6268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 116.84 0)
 			(effects
 				(font
@@ -6299,6 +6312,74 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
+		(at 193.04 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df73af0-63c9-4191-bcd5-9410cfe38a1f")
+		(property "Reference" "MX65"
+			(at 193.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Right"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "714fdb26-3400-4716-b3cc-1dee1e5b3160")
+		)
+		(pin "1"
+			(uuid "615d0837-d05f-44ab-8172-1c6549d3597c")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "MX65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 78.74 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6323,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 116.84 0)
 			(effects
 				(font
@@ -6391,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -6435,74 +6516,6 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
-		(at 193.04 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43b817da-1554-4b58-aceb-ea730af135fe")
-		(property "Reference" "MX64"
-			(at 193.04 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Down"
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
-			(at 193.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 193.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "051d484b-aaf5-4df8-acdb-3d14ccff7054")
-		)
-		(pin "1"
-			(uuid "511fc1ab-96d5-4b3f-9980-e79b88ec2aad")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "MX64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 116.84 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6527,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -6595,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -6632,6 +6645,74 @@
 			(project "Board"
 				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
 					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:MX_SW_solder")
+		(at 205.74 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "504e3f91-d68a-42b4-b9c0-6fcf8d94eb7c")
+		(property "Reference" "MX66"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Delete"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea46465b-119f-463c-990b-e404e45d2456")
+		)
+		(pin "1"
+			(uuid "d681cef3-706f-4753-aa4a-74d9c4116357")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "MX66")
 					(unit 1)
 				)
 			)
@@ -6719,93 +6800,6 @@
 			(project "Board"
 				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
 					(reference "D60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:D_Small")
-		(at 182.88 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51659e41-7820-4c28-aef2-3e96a798074c")
-		(property "Reference" "D63"
-			(at 183.134 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 183.134 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
-			(at 182.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 182.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 182.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "420c4c97-1909-47f0-a157-5a5bcd0dfedf")
-		)
-		(pin "2"
-			(uuid "ebbc469b-5f01-4973-b5bd-b10e9dc5c280")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -7003,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Value" "Delete"
+		(property "Value" "Mode"
 			(at 142.24 137.16 0)
 			(effects
 				(font
@@ -7011,7 +7005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 142.24 142.24 0)
 			(effects
 				(font
@@ -7055,6 +7049,74 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
+		(at 167.64 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a2fca7-6973-44cc-bc2c-7e0f7a75fc51")
+		(property "Reference" "MX63"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Left"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f802e026-169c-414f-a243-de85b1845adb")
+		)
+		(pin "1"
+			(uuid "143196c4-8cd6-43e6-8def-629f67f18e07")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "MX63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 129.54 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7079,7 +7141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 91.44 0)
 			(effects
 				(font
@@ -7147,7 +7209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 142.24 0)
 			(effects
 				(font
@@ -7215,7 +7277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 40.64 0)
 			(effects
 				(font
@@ -7457,7 +7519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -8023,74 +8085,6 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
-		(at 205.74 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67d3db7a-4353-4be4-81df-046375433361")
-		(property "Reference" "MX65"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Right"
-			(at 205.74 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
-			(at 205.74 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 205.74 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4abb18b6-687a-46e6-811e-153ff91fb0a1")
-		)
-		(pin "1"
-			(uuid "4a83c583-e61a-45da-83f9-806f5fe93e3d")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "MX65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 129.54 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8115,7 +8109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 40.64 0)
 			(effects
 				(font
@@ -8269,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -8312,93 +8306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mechanical_keyboard:D_Small")
-		(at 208.28 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69af474a-33de-4eee-bd62-329ba779f199")
-		(property "Reference" "D65"
-			(at 208.534 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 208.534 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
-			(at 208.28 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 208.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 208.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b2e5a0-8766-4782-8377-3e922708d7aa")
-		)
-		(pin "2"
-			(uuid "5765b778-4ee9-43bd-8a74-5610a768e629")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "D65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 78.74 66.04 0)
 		(unit 1)
@@ -8424,7 +8331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 66.04 0)
 			(effects
 				(font
@@ -8492,7 +8399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 193.04 40.64 0)
 			(effects
 				(font
@@ -8535,6 +8442,161 @@
 		)
 	)
 	(symbol
+		(lib_id "mechanical_keyboard:D_Small")
+		(at 170.18 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "732ba9e4-809f-48e2-b529-21ecfec0cc39")
+		(property "Reference" "D63"
+			(at 170.434 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 170.434 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
+			(at 170.18 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d11b7f3e-e33e-4924-af44-a308501e04bf")
+		)
+		(pin "2"
+			(uuid "2c4604ea-6be8-4245-8e35-3d5deb06d868")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:MX_SW_solder")
+		(at 180.34 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734d6176-0316-442b-ac24-b0db3d50c59c")
+		(property "Reference" "MX64"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Down"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02472706-c0a4-49b3-836f-ec0a91de32aa")
+		)
+		(pin "1"
+			(uuid "5a59f686-ec6f-4475-8390-f37facb4bbe9")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "MX64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 104.14 40.64 0)
 		(unit 1)
@@ -8560,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -8628,7 +8690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 142.24 40.64 0)
 			(effects
 				(font
@@ -8665,93 +8727,6 @@
 			(project "Board"
 				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
 					(reference "MX9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:D_Small")
-		(at 195.58 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82275283-a7ae-4f86-8633-06c387df4edd")
-		(property "Reference" "D64"
-			(at 195.834 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 195.834 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
-			(at 195.58 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 195.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 195.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2dc057c-db63-4e6e-aed6-f1a544c2c3c6")
-		)
-		(pin "2"
-			(uuid "084b5c55-22f3-482c-9cb4-3023f9f6d85a")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -8870,7 +8845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -9025,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.74 40.64 0)
 			(effects
 				(font
@@ -9062,6 +9037,93 @@
 			(project "Board"
 				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
 					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:D_Small")
+		(at 182.88 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e766b5f-0a79-44f4-88f7-5edade57ceb6")
+		(property "Reference" "D64"
+			(at 183.134 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 183.134 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
+			(at 182.88 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e514f5d-4ec1-4ba5-b857-6795f79f95d5")
+		)
+		(pin "2"
+			(uuid "aed875c6-39a4-430f-8420-386784bf2b5b")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -9180,7 +9242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 40.64 0)
 			(effects
 				(font
@@ -9248,7 +9310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 193.04 116.84 0)
 			(effects
 				(font
@@ -9403,7 +9465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 116.84 0)
 			(effects
 				(font
@@ -9471,7 +9533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 66.04 91.44 0)
 			(effects
 				(font
@@ -9626,7 +9688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -9694,7 +9756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 91.44 91.44 0)
 			(effects
 				(font
@@ -9762,7 +9824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 53.34 142.24 0)
 			(effects
 				(font
@@ -9893,74 +9955,6 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
-		(at 180.34 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a344a79c-5060-484f-af5a-ee00b5844f03")
-		(property "Reference" "MX63"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Left"
-			(at 180.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27f4534f-8e22-42c8-9e43-a82d753fc38d")
-		)
-		(pin "1"
-			(uuid "7bcd3c56-41fc-47f0-835c-5cbaee1bf5ea")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "MX63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 104.14 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9985,7 +9979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 116.84 0)
 			(effects
 				(font
@@ -10053,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -10208,7 +10202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 66.04 116.84 0)
 			(effects
 				(font
@@ -10450,7 +10444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -10953,7 +10947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -11195,7 +11189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -11238,6 +11232,93 @@
 		)
 	)
 	(symbol
+		(lib_id "mechanical_keyboard:D_Small")
+		(at 208.28 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce8e971c-9a0b-4c5b-952c-8e403a55270e")
+		(property "Reference" "D62"
+			(at 208.534 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 208.534 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
+			(at 208.28 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e91be4e3-bb5e-4361-80f6-f393b1cf9cd7")
+		)
+		(pin "2"
+			(uuid "b80fa920-1612-4fce-bc20-8c1dfe3a35f9")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 154.94 142.24 0)
 		(unit 1)
@@ -11255,7 +11336,7 @@
 				)
 			)
 		)
-		(property "Value" "Sleep"
+		(property "Value" "LCtrl"
 			(at 154.94 137.16 0)
 			(effects
 				(font
@@ -11263,7 +11344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 142.24 0)
 			(effects
 				(font
@@ -11418,7 +11499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -11462,74 +11543,6 @@
 	)
 	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
-		(at 167.64 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9330330-f555-485c-b1ba-0b7f37f88d84")
-		(property "Reference" "MX62"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Insert"
-			(at 167.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5bdefc70-68e0-40e3-ba8e-3fc744268b5d")
-		)
-		(pin "1"
-			(uuid "6f02447f-024f-43a7-9ebc-09f4f5213e56")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
-					(reference "MX62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 40.64 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11554,7 +11567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -11622,7 +11635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -11690,7 +11703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -11758,7 +11771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -11826,7 +11839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -11869,6 +11882,93 @@
 		)
 	)
 	(symbol
+		(lib_id "mechanical_keyboard:D_Small")
+		(at 208.28 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5dd3dbd-b35c-4a8c-b6e2-65367ad42ff8")
+		(property "Reference" "D66"
+			(at 208.534 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 208.534 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
+			(at 208.28 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3c3ae3-9a99-4049-86c9-42bb9822d457")
+		)
+		(pin "2"
+			(uuid "dbe25cb1-cf07-4ec1-aad0-0f78ac105b3f")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mechanical_keyboard:MX_SW_solder")
 		(at 66.04 142.24 0)
 		(unit 1)
@@ -11894,7 +11994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 66.04 142.24 0)
 			(effects
 				(font
@@ -12397,7 +12497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 91.44 66.04 0)
 			(effects
 				(font
@@ -12465,7 +12565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.74 66.04 0)
 			(effects
 				(font
@@ -12533,7 +12633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 142.24 66.04 0)
 			(effects
 				(font
@@ -12688,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -12756,7 +12856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:SW_MX_1u"
+		(property "Footprint" "mechanical_keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 40.64 0)
 			(effects
 				(font
@@ -12793,6 +12893,93 @@
 			(project "Board"
 				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
 					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mechanical_keyboard:D_Small")
+		(at 195.58 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd8179ce-c3f3-437d-ad3b-52f64e5a12b6")
+		(property "Reference" "D65"
+			(at 195.834 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 195.834 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mechanical_keyboard:D_0402_1005Metric"
+			(at 195.58 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06bb7baf-a9e2-4a0d-a21b-7790f497828f")
+		)
+		(pin "2"
+			(uuid "89c6fdd1-3d63-476d-a2ed-0becf59bcd82")
+		)
+		(instances
+			(project "Board"
+				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f/18045288-c355-41a9-9a8c-dead0239ee32"
+					(reference "D65")
 					(unit 1)
 				)
 			)
