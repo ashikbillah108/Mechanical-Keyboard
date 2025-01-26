@@ -5,310 +5,6 @@
 	(uuid "6e762789-e8d1-4ebb-87c2-52d1a226fb0f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mechanical_keyboard:LED_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "mechanical_keyboard:RP2040-ZERO"
 			(pin_names
 				(offset 1.016)
@@ -910,234 +606,106 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 50.8 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bb0607e-5e1f-47f4-ab3c-ccaf1d33af53")
-	)
-	(junction
-		(at 50.8 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6be9e03f-b5f5-4799-a755-44e225a41bf2")
 	)
 	(wire
 		(pts
-			(xy 46.99 39.37) (xy 50.8 39.37)
+			(xy 102.87 38.1) (xy 115.57 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09f72f24-81a9-4027-add3-951a359abc23")
+		(uuid "17c473e2-d22e-4f6e-9b06-8f6e7adbd799")
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 50.8 59.69)
+			(xy 102.87 45.72) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b63c3c0-31d2-44dd-b0be-ec15a688d6aa")
+		(uuid "3ca0dbb9-30b6-4d29-be33-b9d75ae9a53e")
 	)
 	(wire
 		(pts
-			(xy 50.8 46.99) (xy 50.8 52.07)
+			(xy 102.87 60.96) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "112c4be3-0a40-4959-8318-f5a6846fdc0f")
+		(uuid "6cf53610-9ccb-4390-8f60-49d0cba5484e")
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 43.18 52.07)
+			(xy 102.87 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "177c1826-4459-4e7f-9601-bac1704981c8")
+		(uuid "710c7b4f-e79d-4d72-aee8-b48c7e0e1ee6")
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 50.8 52.07)
+			(xy 102.87 58.42) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "446a07c0-4655-49d3-a072-1458be68441b")
+		(uuid "9024a59b-36b3-4367-8843-06a746d098a6")
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 58.42 53.34)
+			(xy 102.87 55.88) (xy 115.57 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b1c2687-cb27-4752-8dd4-455b24a91b02")
+		(uuid "a03c44f5-5204-447d-b467-1e2fba489a21")
 	)
 	(wire
 		(pts
-			(xy 50.8 39.37) (xy 50.8 41.91)
+			(xy 102.87 40.64) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76a22e2a-231b-4cbd-a5b3-1c4d15e54cb7")
+		(uuid "a2b24099-41b8-4722-bf99-0ff033141c5a")
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 58.42 58.42)
+			(xy 102.87 53.34) (xy 115.57 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8892ad86-4c9f-4259-8e54-977dc0caaa40")
+		(uuid "cc0c2fac-c0fa-47d8-bcbd-78c50abbc38b")
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 50.8 59.69)
+			(xy 102.87 50.8) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3a4810b-a96c-4891-867d-186245fae40f")
+		(uuid "e8c5eb00-fb12-4420-832a-7729460a05b8")
 	)
 	(wire
 		(pts
-			(xy 50.8 59.69) (xy 58.42 59.69)
+			(xy 102.87 48.26) (xy 115.57 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1f6c299-804a-4eb1-9202-2071eed0e37d")
-	)
-	(wire
-		(pts
-			(xy 43.18 58.42) (xy 43.18 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fa85df-da43-4214-ad80-8c472debe5cf")
-	)
-	(wire
-		(pts
-			(xy 50.8 52.07) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc70e015-451c-47b8-9a56-83f78958626e")
+		(uuid "fcaadb79-ae3a-409c-add2-6a938dd35772")
 	)
 	(text "MATRIX"
 		(exclude_from_sim no)
@@ -1151,21 +719,53 @@
 		)
 		(uuid "2d2e6277-b448-4eb4-90d3-0a620813ab53")
 	)
-	(text "CAPSLOCK LED"
-		(exclude_from_sim no)
-		(at 38.1 33.528 0)
+	(global_label "COL7"
+		(shape input)
+		(at 151.13 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "143094e8-972b-436a-878a-e536662d6013")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(uuid "e190190e-880e-44f3-ae41-8fa23ce9f4ec")
 	)
-	(global_label "CAPSLOCK"
+	(global_label "COL5"
 		(shape input)
-		(at 46.99 39.37 180)
+		(at 151.13 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "153dceb8-d84d-4f0f-92f3-20ff8fca3da0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL10"
+		(shape input)
+		(at 102.87 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1173,9 +773,9 @@
 			)
 			(justify right)
 		)
-		(uuid "eb88a7fd-6d27-4046-ab91-52936eae1f75")
+		(uuid "1e66b8ea-c326-4153-a25f-3309358b5426")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2681 39.37 0)
+			(at 93.8372 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,329 +785,377 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ed2d699-e05b-46fe-87cf-0bba037a2d17")
-		(property "Reference" "#PWR014"
-			(at 50.8 67.31 0)
+	(global_label "ROW3"
+		(shape input)
+		(at 102.87 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e8cb820-9aa7-4c77-9d0e-3af96d8e8f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6234 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1881ccb-2074-4c2c-bfb8-5536efcd232f")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f"
-					(reference "#PWR014")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "mechanical_keyboard:LED_Small")
-		(at 58.42 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3651c477-261f-45af-9ddc-293702ff0454")
-		(property "Reference" "D72"
-			(at 58.42 54.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(global_label "COL0"
+		(shape input)
+		(at 151.13 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "LED_Small"
-			(at 58.42 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:LED_0603_1608Metric"
-			(at 58.42 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
-			(at 58.42 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
-			(at 58.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 58.42 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2286"
-			(at 58.42 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "249735fa-e4c3-4469-be2c-9ec814e3724b")
-		)
-		(pin "1"
-			(uuid "8c3e03eb-8f15-48f0-8a0f-efe9ee036535")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f"
-					(reference "D72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mechanical_keyboard:LED_Small")
-		(at 43.18 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d22b7c7-7271-440c-87e4-a9e7ccbcf5b3")
-		(property "Reference" "D73"
-			(at 43.18 54.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 43.18 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mechanical_keyboard:LED_0603_1608Metric"
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
-			(at 43.18 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2286"
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3419ac4b-a525-4581-ab0f-c1be0325d530")
-		)
-		(pin "1"
-			(uuid "4d0c5251-66f0-4d2b-9d81-092d099b4784")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f"
-					(reference "D73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 50.8 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f66bac1-366c-4809-ab39-8b7e4681bd29")
-		(property "Reference" "R8"
-			(at 50.546 46.99 0)
+		(uuid "21373689-1996-4db4-b706-8cab7775ca4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "1K"
-			(at 50.546 42.164 0)
+	)
+	(global_label "COL13"
+		(shape input)
+		(at 102.87 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f50deca-890a-43c8-b1c7-9d7766117b70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 151.13 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3be5078a-6caa-4faa-a964-b98cf88b7fe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "mechanical_keyboard:R_0402_1005Metric"
-			(at 50.8 44.45 0)
+	)
+	(global_label "COL11"
+		(shape input)
+		(at 102.87 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64986cb5-dfac-4426-8ba7-a66d96fac7f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 50.8 44.45 0)
+	)
+	(global_label "COL12"
+		(shape input)
+		(at 102.87 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a89506d-0ea8-4764-aaec-cb99a7b8bec1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 50.8 44.45 0)
+	)
+	(global_label "COL9"
+		(shape input)
+		(at 151.13 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76d97709-967a-4b58-8f11-eae24c1b9492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 50.8 44.45 90)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 151.13 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c2ae319-6ffa-4a7a-b539-dc36c14feba8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C11702"
-			(at 50.8 44.45 90)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 151.13 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa7d8c5b-1c04-4dc7-b89d-3e1335e2395b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3c0fe1e4-ab10-40ad-b8fe-fcb4fcdc159e")
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 102.87 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(pin "2"
-			(uuid "4bef6c96-edc6-4069-97a0-013cdf13066b")
-		)
-		(instances
-			(project "Board"
-				(path "/6e762789-e8d1-4ebb-87c2-52d1a226fb0f"
-					(reference "R8")
-					(unit 1)
+		(uuid "b079d0c4-c45b-43e4-9090-4defa1004184")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6234 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL14"
+		(shape input)
+		(at 102.87 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6de2ba9-32fc-4a3f-a144-44716db981be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 151.13 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8b18d0b-f924-4092-b0f9-a7ae3281585c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 151.13 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba520966-e6d2-4618-9d2b-fe037395591e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 102.87 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ee6022-802f-4d2c-ab0a-d821a9cc3b3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6234 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 102.87 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daad325d-90a5-4548-829b-731dbb669557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6234 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 102.87 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f23c89d1-18e5-4fda-b697-5aace0c39774")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6234 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 151.13 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8d78766-5c21-4942-afeb-c9822b2bcf68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
 		)
 	)
